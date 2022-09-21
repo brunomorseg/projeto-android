@@ -57,7 +57,9 @@ main {
 
         nav > a:hover {background-color: rgba(255, 255, 255, 0.466);}
  
-        main#ma2{background-color: rgb(28, 99, 59); border-radius: 0px; text-align: center; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466)}
+        main#ma2{background-color: rgb(28, 99, 59); border-radius: 0px; text-align: center; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
+          
+        }
 
         main#ma3{background-color: white; border-radius: 0px 0px 10px 10px;  margin-bottom: 30px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466)}
 
@@ -98,6 +100,22 @@ main {
             text-indent: 30px;
             line-height: 1.5em;
             margin: 15px 0px;}
+
+        @media (max-width: 620px){
+            video {
+                width: 480px;
+                height: 270px;
+            }
+        }
+
+        @media (max-width:380px) {
+            video {
+                width: 340px;
+                height: 191.25px;
+
+            }
+        }
+        
         
 
        
@@ -139,7 +157,10 @@ main {
 
 
     </main>
-    <main id="ma2">  <p id="teste"><iframe width="800" height="450" src="https://www.youtube.com/embed/l2UDgpLz20M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></main>
+    <main id="ma2"> <video width="560px" height="315px" controls >
+                <source src="video/The next evolution of Android.mp4" type="video/mp4">
+
+    </video> </main>
 
     <main id="ma3">
 
