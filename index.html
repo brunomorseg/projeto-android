@@ -101,6 +101,16 @@ main {
             line-height: 1.5em;
             margin: 15px 0px;}
 
+            @media(max-width:755px){
+                #vsc-controller div#controller{
+                    left: auto;
+                    top: auto;
+                }
+                #ma2 video{
+                    overflow: hidden;
+                }
+            }
+
 
             @media (max-width: 600px){
             video {
@@ -109,10 +119,20 @@ main {
             }
         }    
 
-        @media (max-width: 500px){
+        @media (max-width: 530px){
             video {
                 width: 450px;
                 height: 253.125px;
+            }
+            div.divclass{
+                width: 350px;
+            }
+        }
+
+        @media (max-width:480px) {
+            video {
+                width: 420px;
+                height: 236,25px;
             }
         }
 
@@ -124,7 +144,15 @@ main {
             }
         }
         
-        
+        @media (max-width:390px) {
+            video {
+                width: 270px;
+                height:151,875px;
+            }
+            div.divclass{
+                width: auto;
+            }
+        }
 
        
 </style>
